@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AF618941388EE12001D5C83 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AF618931388EE12001D5C83 /* UIKit.framework */; };
+		3AF618961388EE12001D5C83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AF618951388EE12001D5C83 /* Foundation.framework */; };
+		3AF618981388EE12001D5C83 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AF618971388EE12001D5C83 /* CoreGraphics.framework */; };
+		3AF6189A1388EE13001D5C83 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AF618991388EE12001D5C83 /* CoreData.framework */; };
+		3AF618A01388EE13001D5C83 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3AF6189E1388EE13001D5C83 /* InfoPlist.strings */; };
+		3AF618A31388EE13001D5C83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF618A21388EE13001D5C83 /* main.m */; };
+		3AF618A61388EE13001D5C83 /* BabyIOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF618A51388EE13001D5C83 /* BabyIOAppDelegate.m */; };
+		3AF618A91388EE13001D5C83 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AF618A71388EE13001D5C83 /* MainWindow.xib */; };
+		3AF618AC1388EE13001D5C83 /* BabyIO.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3AF618AA1388EE13001D5C83 /* BabyIO.xcdatamodeld */; };
+		3AF618C51388EFE1001D5C83 /* DailyIO.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF618C41388EFE1001D5C83 /* DailyIO.m */; };
+		3AF618C71388F0B1001D5C83 /* BabyIOViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AF618C61388F0B1001D5C83 /* BabyIOViewController.xib */; };
+		3AF618D21388F463001D5C83 /* BabyIOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF618D01388F463001D5C83 /* BabyIOViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3AF6188F1388EE12001D5C83 /* BabyIO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabyIO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AF618931388EE12001D5C83 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3AF618951388EE12001D5C83 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3AF618971388EE12001D5C83 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3AF618991388EE12001D5C83 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3AF6189D1388EE13001D5C83 /* BabyIO-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BabyIO-Info.plist"; sourceTree = "<group>"; };
+		3AF6189F1388EE13001D5C83 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3AF618A11388EE13001D5C83 /* BabyIO-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BabyIO-Prefix.pch"; sourceTree = "<group>"; };
+		3AF618A21388EE13001D5C83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3AF618A41388EE13001D5C83 /* BabyIOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BabyIOAppDelegate.h; sourceTree = "<group>"; };
+		3AF618A51388EE13001D5C83 /* BabyIOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BabyIOAppDelegate.m; sourceTree = "<group>"; };
+		3AF618A81388EE13001D5C83 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		3AF618AB1388EE13001D5C83 /* BabyIO.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BabyIO.xcdatamodel; sourceTree = "<group>"; };
+		3AF618C31388EFE1001D5C83 /* DailyIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DailyIO.h; sourceTree = "<group>"; };
+		3AF618C41388EFE1001D5C83 /* DailyIO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DailyIO.m; sourceTree = "<group>"; };
+		3AF618C61388F0B1001D5C83 /* BabyIOViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BabyIOViewController.xib; sourceTree = "<group>"; };
+		3AF618D01388F463001D5C83 /* BabyIOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyIOViewController.m; sourceTree = "<group>"; };
+		3AF618D11388F463001D5C83 /* BabyIOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyIOViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AF6188C1388EE12001D5C83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AF618941388EE12001D5C83 /* UIKit.framework in Frameworks */,
+				3AF618961388EE12001D5C83 /* Foundation.framework in Frameworks */,
+				3AF618981388EE12001D5C83 /* CoreGraphics.framework in Frameworks */,
+				3AF6189A1388EE13001D5C83 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AF618841388EE12001D5C83 = {
+			isa = PBXGroup;
+			children = (
+				3AF6189B1388EE13001D5C83 /* BabyIO */,
+				3AF618921388EE12001D5C83 /* Frameworks */,
+				3AF618901388EE12001D5C83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3AF618901388EE12001D5C83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AF6188F1388EE12001D5C83 /* BabyIO.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AF618921388EE12001D5C83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3AF618931388EE12001D5C83 /* UIKit.framework */,
+				3AF618951388EE12001D5C83 /* Foundation.framework */,
+				3AF618971388EE12001D5C83 /* CoreGraphics.framework */,
+				3AF618991388EE12001D5C83 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3AF6189B1388EE13001D5C83 /* BabyIO */ = {
+			isa = PBXGroup;
+			children = (
+				3AF618D01388F463001D5C83 /* BabyIOViewController.m */,
+				3AF618D11388F463001D5C83 /* BabyIOViewController.h */,
+				3AF618A41388EE13001D5C83 /* BabyIOAppDelegate.h */,
+				3AF618A51388EE13001D5C83 /* BabyIOAppDelegate.m */,
+				3AF618A71388EE13001D5C83 /* MainWindow.xib */,
+				3AF618C31388EFE1001D5C83 /* DailyIO.h */,
+				3AF618C41388EFE1001D5C83 /* DailyIO.m */,
+				3AF618C61388F0B1001D5C83 /* BabyIOViewController.xib */,
+				3AF618AA1388EE13001D5C83 /* BabyIO.xcdatamodeld */,
+				3AF6189C1388EE13001D5C83 /* Supporting Files */,
+			);
+			path = BabyIO;
+			sourceTree = "<group>";
+		};
+		3AF6189C1388EE13001D5C83 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3AF6189D1388EE13001D5C83 /* BabyIO-Info.plist */,
+				3AF6189E1388EE13001D5C83 /* InfoPlist.strings */,
+				3AF618A11388EE13001D5C83 /* BabyIO-Prefix.pch */,
+				3AF618A21388EE13001D5C83 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AF6188E1388EE12001D5C83 /* BabyIO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AF618AF1388EE13001D5C83 /* Build configuration list for PBXNativeTarget "BabyIO" */;
+			buildPhases = (
+				3AF6188B1388EE12001D5C83 /* Sources */,
+				3AF6188C1388EE12001D5C83 /* Frameworks */,
+				3AF6188D1388EE12001D5C83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BabyIO;
+			productName = BabyIO;
+			productReference = 3AF6188F1388EE12001D5C83 /* BabyIO.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AF618861388EE12001D5C83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "IPSOFACTO LLC";
+			};
+			buildConfigurationList = 3AF618891388EE12001D5C83 /* Build configuration list for PBXProject "BabyIO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3AF618841388EE12001D5C83;
+			productRefGroup = 3AF618901388EE12001D5C83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AF6188E1388EE12001D5C83 /* BabyIO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AF6188D1388EE12001D5C83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AF618A01388EE13001D5C83 /* InfoPlist.strings in Resources */,
+				3AF618A91388EE13001D5C83 /* MainWindow.xib in Resources */,
+				3AF618C71388F0B1001D5C83 /* BabyIOViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AF6188B1388EE12001D5C83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AF618A31388EE13001D5C83 /* main.m in Sources */,
+				3AF618A61388EE13001D5C83 /* BabyIOAppDelegate.m in Sources */,
+				3AF618AC1388EE13001D5C83 /* BabyIO.xcdatamodeld in Sources */,
+				3AF618C51388EFE1001D5C83 /* DailyIO.m in Sources */,
+				3AF618D21388F463001D5C83 /* BabyIOViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3AF6189E1388EE13001D5C83 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AF6189F1388EE13001D5C83 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3AF618A71388EE13001D5C83 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AF618A81388EE13001D5C83 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3AF618AD1388EE13001D5C83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3AF618AE1388EE13001D5C83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		3AF618B01388EE13001D5C83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BabyIO/BabyIO-Prefix.pch";
+				INFOPLIST_FILE = "BabyIO/BabyIO-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3AF618B11388EE13001D5C83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BabyIO/BabyIO-Prefix.pch";
+				INFOPLIST_FILE = "BabyIO/BabyIO-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AF618891388EE12001D5C83 /* Build configuration list for PBXProject "BabyIO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AF618AD1388EE13001D5C83 /* Debug */,
+				3AF618AE1388EE13001D5C83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AF618AF1388EE13001D5C83 /* Build configuration list for PBXNativeTarget "BabyIO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AF618B01388EE13001D5C83 /* Debug */,
+				3AF618B11388EE13001D5C83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3AF618AA1388EE13001D5C83 /* BabyIO.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3AF618AB1388EE13001D5C83 /* BabyIO.xcdatamodel */,
+			);
+			currentVersion = 3AF618AB1388EE13001D5C83 /* BabyIO.xcdatamodel */;
+			path = BabyIO.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3AF618861388EE12001D5C83 /* Project object */;
+}
