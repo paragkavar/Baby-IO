@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A84CF4E138AE2FE00487801 /* IOCharts.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A84CF4C138AE2FE00487801 /* IOCharts.m */; };
+		3A84CF4F138AE2FE00487801 /* IOCharts.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A84CF4D138AE2FE00487801 /* IOCharts.xib */; };
 		3AF618941388EE12001D5C83 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AF618931388EE12001D5C83 /* UIKit.framework */; };
 		3AF618961388EE12001D5C83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AF618951388EE12001D5C83 /* Foundation.framework */; };
 		3AF618981388EE12001D5C83 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AF618971388EE12001D5C83 /* CoreGraphics.framework */; };
@@ -22,6 +24,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A84CF4B138AE2FE00487801 /* IOCharts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOCharts.h; sourceTree = "<group>"; };
+		3A84CF4C138AE2FE00487801 /* IOCharts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOCharts.m; sourceTree = "<group>"; };
+		3A84CF4D138AE2FE00487801 /* IOCharts.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IOCharts.xib; sourceTree = "<group>"; };
 		3AF6188F1388EE12001D5C83 /* BabyIO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabyIO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AF618931388EE12001D5C83 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3AF618951388EE12001D5C83 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -98,6 +103,9 @@
 				3AF618C61388F0B1001D5C83 /* BabyIOViewController.xib */,
 				3AF618AA1388EE13001D5C83 /* BabyIO.xcdatamodeld */,
 				3AF6189C1388EE13001D5C83 /* Supporting Files */,
+				3A84CF4B138AE2FE00487801 /* IOCharts.h */,
+				3A84CF4C138AE2FE00487801 /* IOCharts.m */,
+				3A84CF4D138AE2FE00487801 /* IOCharts.xib */,
 			);
 			path = BabyIO;
 			sourceTree = "<group>";
@@ -166,6 +174,7 @@
 				3AF618A01388EE13001D5C83 /* InfoPlist.strings in Resources */,
 				3AF618A91388EE13001D5C83 /* MainWindow.xib in Resources */,
 				3AF618C71388F0B1001D5C83 /* BabyIOViewController.xib in Resources */,
+				3A84CF4F138AE2FE00487801 /* IOCharts.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +190,7 @@
 				3AF618AC1388EE13001D5C83 /* BabyIO.xcdatamodeld in Sources */,
 				3AF618C51388EFE1001D5C83 /* DailyIO.m in Sources */,
 				3AF618D21388F463001D5C83 /* BabyIOViewController.m in Sources */,
+				3A84CF4E138AE2FE00487801 /* IOCharts.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

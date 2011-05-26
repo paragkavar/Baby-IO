@@ -3,7 +3,7 @@
 //  BabyIO
 //
 //  Created by Andrew Hunzeker on 2/12/11.
-//  Copyright 2011 IPSOFACTO LLC. All rights reserved.
+//  Copyright 2011 Andrew HunzekerHesed. All rights reserved.
 //
 
 #import "BabyIOViewController.h"
@@ -15,6 +15,55 @@
 @synthesize dailyIO;
 
 
+-(NSDate*)stripthetime{
+    
+    unsigned int flags = NSYearCalendarUnit | NSMonthCalendarUnit | NSDayCalendarUnit;
+    NSCalendar* calendar = [NSCalendar currentCalendar];
+    
+    NSDateComponents* components = [calendar components:flags fromDate:[NSDate date]];
+    
+    NSDate* dateOnly = [calendar dateFromComponents:components];
+    
+    return dateOnly;
+    
+}
+
+
+- (DailyIO *)getlastDbobj{
+    /*
+	 Fetch existing events.
+	 Create a fetch request; find the Event entity and assign it to the request; add a sort descriptor; then execute the fetch.
+	 */
+	NSFetchRequest *request = [[NSFetchRequest alloc] init];
+	NSEntityDescription *entity = [NSEntityDescription entityForName:@"DailyIO" inManagedObjectContext:managedObjectContext];
+	[request setEntity:entity];
+	
+	// Order the events by creation date, most recent first.
+	NSSortDescriptor *sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"Date" ascending:NO];
+	NSArray *sortDescriptors = [[NSArray alloc] initWithObjects:sortDescriptor, nil];
+	[request setSortDescriptors:sortDescriptors];
+    //limit the request to one
+    [request setFetchLimit:1];
+	[sortDescriptor release];
+	[sortDescriptors release];
+    
+    
+    // Execute the fetch.
+	NSError *error = nil;
+	NSArray *fetchResults = [managedObjectContext executeFetchRequest:request error:&error];
+    //NSLog(@"%@",fetchResults);
+	if ([fetchResults count] == 0) {
+        dailyIO = (DailyIO *)[NSEntityDescription insertNewObjectForEntityForName:@"DailyIO" inManagedObjectContext:managedObjectContext];
+        [dailyIO setDate:[self stripthetime]];
+        return dailyIO;
+	}else{
+    return [fetchResults objectAtIndex:0];
+    }
+    [fetchResults release];
+	[request release];
+
+
+}
 
 
 #pragma mark - View lifecycle
@@ -24,28 +73,51 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
     NSDateFormatter* dateFormatter = [[NSDateFormatter alloc] init];
     [dateFormatter setDateStyle:NSDateFormatterFullStyle];
-    NSString *today = [dateFormatter stringFromDate:[NSDate date]];
+    NSString *today = [dateFormatter stringFromDate:[self stripthetime]];
     todaysDate.text = today;
     
-dailyIO = (DailyIO *)[NSEntityDescription insertNewObjectForEntityForName:@"DailyIO" inManagedObjectContext:managedObjectContext];
-    [dailyIO setDate:[NSDate date]];
-    
 }
+-(void)viewDidAppear:(BOOL)animated{
+    
+    DailyIO *lastrec = [self getlastDbobj];
+    
+    NSLog(@"lastrec date : %@", lastrec.Date);
+    NSLog(@"stripthetime ; %@", [self stripthetime]);
+    if ([lastrec.Date isEqualToDate:[self stripthetime]]) {
+        NSLog(@"sameday!");
+        dailyIO = lastrec;
+    }else{
+    dailyIO = (DailyIO *)[NSEntityDescription insertNewObjectForEntityForName:@"DailyIO" inManagedObjectContext:managedObjectContext];
+    [dailyIO setDate:[self stripthetime]];  
+    }
+
+    NSLog(@"we are appearing again");
+    /*dailyIO = [fetchResults objectAtIndex:0];
+    NSString *datetocheck = [dateFormatter stringFromDate:dailyIO.Date];
+    if (datetocheck != today){
+        dailyIO = nil;
+
+    }
+    */
+    
+
+}
+
 
 -(void)savetodb{
     
-    NSLog(@"here is the error");   
+    
     
    NSError *error = nil;
-    BOOL succ = [managedObjectContext save:&error];
-    NSLog(@"The value of the bool is %@\n", (succ ? @"YES" : @"NO"));
-   // if (![managedObjectContext save:&error]) {
-    //    NSLog(@"There was an error saving to the db");
-   // }
 
-
+  
+   if (![managedObjectContext save:&error]) {
+       NSLog(@"There was an error saving to the db");
+   }
+    NSLog(@"saved!");
 }
 
 
@@ -85,7 +157,7 @@ dailyIO = (DailyIO *)[NSEntityDescription insertNewObjectForEntityForName:@"Dail
             }
             dailyIO = (DailyIO *)[NSEntityDescription insertNewObjectForEntityForName:@"DailyIO" inManagedObjectContext:managedObjectContext];
             wetnum.text = [[NSNumber numberWithInt:wettochange] stringValue];
-            [dailyIO setweewee:[NSNumber numberWithInt:wettochange]];
+            [dailyIO setWeewee:[NSNumber numberWithInt:wettochange]];
             
             break;
         case 2:
@@ -101,7 +173,11 @@ dailyIO = (DailyIO *)[NSEntityDescription insertNewObjectForEntityForName:@"Dail
         case 3:
             NSLog(@"case3");
             int sleeptochange = [sleepnum.text intValue];
+            if (sleeptochange > 0){
             sleeptochange = sleeptochange - 1;
+            } else {
+                sleeptochange = 0;
+            }
             sleepnum.text = [[NSNumber numberWithInt:sleeptochange] stringValue];
             break;
 
@@ -173,15 +249,19 @@ dailyIO = (DailyIO *)[NSEntityDescription insertNewObjectForEntityForName:@"Dail
             break;
     }
     
-    [self savetodb];
+    
     
 }
 
-
+-(void)viewDidDisappear:(BOOL)animated{
+    NSLog(@"viewgoingaway");
+    [self savetodb];
+}
 
 
 - (void)viewDidUnload
 {
+    
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;

@@ -3,7 +3,7 @@
 //  BabyIO
 //
 //  Created by Andrew Hunzeker on 5/22/11.
-//  Copyright 2011 IPSOFACTO LLC. All rights reserved.
+//  Copyright 2011 Andrew HunzekerHesed. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

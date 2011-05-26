@@ -3,11 +3,13 @@
 //  BabyIO
 //
 //  Created by Andrew Hunzeker on 5/22/11.
-//  Copyright 2011 IPSOFACTO LLC. All rights reserved.
+//  Copyright 2011 Andrew HunzekerHesed. All rights reserved.
 //
 
 #import "BabyIOAppDelegate.h"
 #import "BabyIOViewController.h"
+#import "IOCharts.h"
+
 
 
 @implementation BabyIOAppDelegate
@@ -21,6 +23,8 @@
 
 @synthesize persistentStoreCoordinator=__persistentStoreCoordinator;
 
+@synthesize tabBarController;
+
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -29,13 +33,17 @@
     if (!context) {
         NSLog(@"THere is an error");
     }
-    
+    //set up the tab bar controller
+    tabBarController = [[UITabBarController alloc] init];
     BabyIOViewController *babyIOViewController = [[BabyIOViewController alloc]init];
-    
     babyIOViewController.managedObjectContext = context;
-    //[self.window addSubview:tabBarController.view];
-    [self.window addSubview:[babyIOViewController view]];
-    // Override point for customization after application launch.
+    IOCharts *ioChart = [[IOCharts alloc]init];
+    
+    NSArray* controllers = [NSArray arrayWithObjects:babyIOViewController, ioChart, nil];
+    tabBarController.viewControllers = controllers;
+    
+    [self.window addSubview:tabBarController.view];
+    //[self.window addSubview:[babyIOViewController view]];
     [self.window makeKeyAndVisible];
     
 
