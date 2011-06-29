@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+//#import "CorePlot-CocoaTouch.h"
 
 
-@interface IOCharts : UIViewController {
+@interface IOCharts : UIViewController /*<CPPlotDataSource>*/ {
+    
+  //  CPXYGraph *graph;
     
 }
 

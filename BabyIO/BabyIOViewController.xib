@@ -41,6 +41,7 @@
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="814789529"/>
 						<bool key="IBUIOpaque">NO</bool>
+						<int key="IBUITag">30</int>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
@@ -72,7 +73,7 @@
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="335928038"/>
 						<bool key="IBUIOpaque">NO</bool>
-						<int key="IBUITag">1</int>
+						<int key="IBUITag">31</int>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
@@ -94,7 +95,7 @@
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="953027650"/>
 						<bool key="IBUIOpaque">NO</bool>
-						<int key="IBUITag">2</int>
+						<int key="IBUITag">32</int>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
@@ -116,6 +117,7 @@
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="477677408"/>
 						<bool key="IBUIOpaque">NO</bool>
+						<int key="IBUITag">30</int>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
@@ -137,7 +139,7 @@
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="95396624"/>
 						<bool key="IBUIOpaque">NO</bool>
-						<int key="IBUITag">1</int>
+						<int key="IBUITag">31</int>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
@@ -159,7 +161,7 @@
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="843186364"/>
 						<bool key="IBUIOpaque">NO</bool>
-						<int key="IBUITag">2</int>
+						<int key="IBUITag">32</int>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
@@ -183,6 +185,7 @@
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<int key="IBUIContentMode">7</int>
+						<int key="IBUITag">40</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<string key="IBUIText">0</string>
@@ -210,6 +213,7 @@
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<int key="IBUIContentMode">7</int>
+						<int key="IBUITag">40</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<string key="IBUIText">0</string>
@@ -230,6 +234,7 @@
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<int key="IBUIContentMode">7</int>
+						<int key="IBUITag">40</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<string key="IBUIText">0</string>
@@ -250,6 +255,7 @@
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<int key="IBUIContentMode">7</int>
+						<int key="IBUITag">40</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<string key="IBUIText">Feedings</string>
@@ -268,6 +274,7 @@
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<int key="IBUIContentMode">7</int>
+						<int key="IBUITag">40</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<string key="IBUIText">Wet Diapers</string>
@@ -286,6 +293,7 @@
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<int key="IBUIContentMode">7</int>
+						<int key="IBUITag">40</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<string key="IBUIText">Poopers</string>
@@ -300,8 +308,9 @@
 						<string key="NSFrame">{{235, 268}, {37, 37}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView"/>
 						<bool key="IBUIOpaque">NO</bool>
-						<int key="IBUITag">3</int>
+						<int key="IBUITag">33</int>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
@@ -323,7 +332,7 @@
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="495130322"/>
 						<bool key="IBUIOpaque">NO</bool>
-						<int key="IBUITag">3</int>
+						<int key="IBUITag">33</int>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
@@ -347,6 +356,7 @@
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<int key="IBUIContentMode">7</int>
+						<int key="IBUITag">40</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<string key="IBUIText">0</string>
@@ -367,6 +377,7 @@
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<int key="IBUIContentMode">7</int>
+						<int key="IBUITag">40</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<string key="IBUIText">Hours of Sleep</string>
@@ -938,6 +949,7 @@
 								<int key="NSID">2</int>
 							</object>
 						</object>
+						<int key="IBUITag">40</int>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 					</object>
 					<object class="IBUILabel" id="76936623">
@@ -954,9 +966,11 @@
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<int key="IBUIContentMode">7</int>
+						<int key="IBUITag">40</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<string key="IBUIText">Date</string>
+						<reference key="IBUIFont" ref="482136026"/>
 						<object class="NSColor" key="IBUITextColor">
 							<int key="NSColorSpace">10</int>
 							<object class="NSImage" key="NSImage">
@@ -1003,6 +1017,7 @@ AAMAAAABAAEAAAFTAAMAAAAEAAACAgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 					<reference key="NSCustomColorSpace" ref="895362726"/>
 				</object>
 				<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
+				<int key="IBUITag">40</int>
 				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
 				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 			</object>
@@ -1123,203 +1138,19 @@ AAMAAAABAAEAAAFTAAMAAAAEAAACAgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">midnight</string>
-						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="909105470"/>
-					</object>
-					<int key="connectionID">73</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">oneam</string>
-						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="1052188957"/>
-					</object>
-					<int key="connectionID">74</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">twoam</string>
-						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="792267036"/>
-					</object>
-					<int key="connectionID">75</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">eightam</string>
-						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="580843552"/>
-					</object>
-					<int key="connectionID">76</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">eightpm</string>
-						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="612394945"/>
-					</object>
-					<int key="connectionID">77</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">elevenam</string>
-						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="321889258"/>
-					</object>
-					<int key="connectionID">78</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">elevenpm</string>
-						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="974186834"/>
-					</object>
-					<int key="connectionID">79</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">fiveam</string>
-						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="385283679"/>
-					</object>
-					<int key="connectionID">80</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">fivepm</string>
-						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="1044559406"/>
-					</object>
-					<int key="connectionID">81</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">fouram</string>
-						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="235276946"/>
-					</object>
-					<int key="connectionID">82</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">fourpm</string>
-						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="601568225"/>
-					</object>
-					<int key="connectionID">83</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">nineam</string>
-						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="442628709"/>
-					</object>
-					<int key="connectionID">84</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">ninepm</string>
-						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="109307529"/>
-					</object>
-					<int key="connectionID">85</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">noon</string>
-						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="123891817"/>
-					</object>
-					<int key="connectionID">86</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">onepm</string>
-						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="563335668"/>
-					</object>
-					<int key="connectionID">87</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">sevenam</string>
-						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="955627828"/>
-					</object>
-					<int key="connectionID">88</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">sevenpm</string>
-						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="1052913943"/>
-					</object>
-					<int key="connectionID">89</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">sixam</string>
-						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="842040083"/>
-					</object>
-					<int key="connectionID">90</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">sixpm</string>
-						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="700915326"/>
-					</object>
-					<int key="connectionID">91</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">tenam</string>
-						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="216788915"/>
-					</object>
-					<int key="connectionID">92</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">tenpm</string>
-						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="20873503"/>
-					</object>
-					<int key="connectionID">93</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">threeam</string>
-						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="275376849"/>
-					</object>
-					<int key="connectionID">94</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">threepm</string>
-						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="931472784"/>
-					</object>
-					<int key="connectionID">95</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">twopm</string>
-						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="949163782"/>
-					</object>
-					<int key="connectionID">96</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">todaysDate</string>
 						<reference key="source" ref="372490531"/>
 						<reference key="destination" ref="76936623"/>
 					</object>
 					<int key="connectionID">98</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">feedingTimeLabel</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="974186834"/>
+					</object>
+					<int key="connectionID">123</int>
 				</object>
 			</array>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -1452,7 +1283,6 @@ AAMAAAABAAEAAAFTAAMAAAAEAAACAgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 						<array class="NSMutableArray" key="children">
 							<reference ref="1052188957"/>
 							<reference ref="792267036"/>
-							<reference ref="275376849"/>
 							<reference ref="235276946"/>
 							<reference ref="385283679"/>
 							<reference ref="842040083"/>
@@ -1465,8 +1295,6 @@ AAMAAAABAAEAAAFTAAMAAAAEAAACAgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 							<reference ref="909105470"/>
 							<reference ref="563335668"/>
 							<reference ref="949163782"/>
-							<reference ref="931472784"/>
-							<reference ref="601568225"/>
 							<reference ref="1044559406"/>
 							<reference ref="700915326"/>
 							<reference ref="1052913943"/>
@@ -1476,6 +1304,9 @@ AAMAAAABAAEAAAFTAAMAAAAEAAACAgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 							<reference ref="974186834"/>
 							<reference ref="123891817"/>
 							<reference ref="414861976"/>
+							<reference ref="931472784"/>
+							<reference ref="275376849"/>
+							<reference ref="601568225"/>
 						</array>
 						<reference key="parent" ref="774585933"/>
 					</object>
@@ -1493,6 +1324,7 @@ AAMAAAABAAEAAAFTAAMAAAAEAAACAgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 						<int key="objectID">49</int>
 						<reference key="object" ref="275376849"/>
 						<reference key="parent" ref="814789529"/>
+						<string key="objectName">Label - 3</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">50</int>
@@ -1670,7 +1502,7 @@ AAMAAAABAAEAAAFTAAMAAAAEAAACAgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">98</int>
+			<int key="maxID">123</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -1692,147 +1524,32 @@ AAMAAAABAAEAAAFTAAMAAAAEAAACAgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 						</object>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="eightam">UILabel</string>
-						<string key="eightpm">UILabel</string>
-						<string key="elevenam">UILabel</string>
-						<string key="elevenpm">UILabel</string>
+						<string key="feedingTimeLabel">UILabel</string>
 						<string key="feedingnum">UILabel</string>
-						<string key="fiveam">UILabel</string>
-						<string key="fivepm">UILabel</string>
-						<string key="fouram">UILabel</string>
-						<string key="fourpm">UILabel</string>
-						<string key="midnight">UILabel</string>
-						<string key="nineam">UILabel</string>
-						<string key="ninepm">UILabel</string>
-						<string key="noon">UILabel</string>
-						<string key="oneam">UILabel</string>
-						<string key="onepm">UILabel</string>
 						<string key="poopernum">UILabel</string>
-						<string key="sevenam">UILabel</string>
-						<string key="sevenpm">UILabel</string>
-						<string key="sixam">UILabel</string>
-						<string key="sixpm">UILabel</string>
 						<string key="sleepnum">UILabel</string>
-						<string key="tenam">UILabel</string>
-						<string key="tenpm">UILabel</string>
-						<string key="threeam">UILabel</string>
-						<string key="threepm">UILabel</string>
 						<string key="todaysDate">UILabel</string>
-						<string key="twoam">UILabel</string>
-						<string key="twopm">UILabel</string>
 						<string key="wetnum">UILabel</string>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<object class="IBToOneOutletInfo" key="eightam">
-							<string key="name">eightam</string>
-							<string key="candidateClassName">UILabel</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="eightpm">
-							<string key="name">eightpm</string>
-							<string key="candidateClassName">UILabel</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="elevenam">
-							<string key="name">elevenam</string>
-							<string key="candidateClassName">UILabel</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="elevenpm">
-							<string key="name">elevenpm</string>
+						<object class="IBToOneOutletInfo" key="feedingTimeLabel">
+							<string key="name">feedingTimeLabel</string>
 							<string key="candidateClassName">UILabel</string>
 						</object>
 						<object class="IBToOneOutletInfo" key="feedingnum">
 							<string key="name">feedingnum</string>
 							<string key="candidateClassName">UILabel</string>
 						</object>
-						<object class="IBToOneOutletInfo" key="fiveam">
-							<string key="name">fiveam</string>
-							<string key="candidateClassName">UILabel</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="fivepm">
-							<string key="name">fivepm</string>
-							<string key="candidateClassName">UILabel</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="fouram">
-							<string key="name">fouram</string>
-							<string key="candidateClassName">UILabel</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="fourpm">
-							<string key="name">fourpm</string>
-							<string key="candidateClassName">UILabel</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="midnight">
-							<string key="name">midnight</string>
-							<string key="candidateClassName">UILabel</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="nineam">
-							<string key="name">nineam</string>
-							<string key="candidateClassName">UILabel</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="ninepm">
-							<string key="name">ninepm</string>
-							<string key="candidateClassName">UILabel</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="noon">
-							<string key="name">noon</string>
-							<string key="candidateClassName">UILabel</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="oneam">
-							<string key="name">oneam</string>
-							<string key="candidateClassName">UILabel</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="onepm">
-							<string key="name">onepm</string>
-							<string key="candidateClassName">UILabel</string>
-						</object>
 						<object class="IBToOneOutletInfo" key="poopernum">
 							<string key="name">poopernum</string>
-							<string key="candidateClassName">UILabel</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="sevenam">
-							<string key="name">sevenam</string>
-							<string key="candidateClassName">UILabel</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="sevenpm">
-							<string key="name">sevenpm</string>
-							<string key="candidateClassName">UILabel</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="sixam">
-							<string key="name">sixam</string>
-							<string key="candidateClassName">UILabel</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="sixpm">
-							<string key="name">sixpm</string>
 							<string key="candidateClassName">UILabel</string>
 						</object>
 						<object class="IBToOneOutletInfo" key="sleepnum">
 							<string key="name">sleepnum</string>
 							<string key="candidateClassName">UILabel</string>
 						</object>
-						<object class="IBToOneOutletInfo" key="tenam">
-							<string key="name">tenam</string>
-							<string key="candidateClassName">UILabel</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="tenpm">
-							<string key="name">tenpm</string>
-							<string key="candidateClassName">UILabel</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="threeam">
-							<string key="name">threeam</string>
-							<string key="candidateClassName">UILabel</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="threepm">
-							<string key="name">threepm</string>
-							<string key="candidateClassName">UILabel</string>
-						</object>
 						<object class="IBToOneOutletInfo" key="todaysDate">
 							<string key="name">todaysDate</string>
-							<string key="candidateClassName">UILabel</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="twoam">
-							<string key="name">twoam</string>
-							<string key="candidateClassName">UILabel</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="twopm">
-							<string key="name">twopm</string>
 							<string key="candidateClassName">UILabel</string>
 						</object>
 						<object class="IBToOneOutletInfo" key="wetnum">

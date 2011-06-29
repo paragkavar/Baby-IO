@@ -2,8 +2,8 @@
 //  DailyIO.h
 //  BabyIO
 //
-//  Created by Andrew Hunzeker on 5/22/11.
-//  Copyright (c) 2011 Andrew HunzekerHesed. All rights reserved.
+//  Created by Andrew Hunzeker on 6/12/11.
+//  Copyright (c) 2011 IPSOFACTO LLC. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -13,11 +13,15 @@
 @interface DailyIO : NSManagedObject {
 @private
 }
-@property (nonatomic, retain) NSDate * Date;
-@property (nonatomic, retain) NSNumber * weewee;
 @property (nonatomic, retain) NSNumber * feeding;
-@property (nonatomic, retain) NSString * feedingTime;
+@property (nonatomic, retain) NSNumber * weewee;
+@property (nonatomic, retain) NSDate * day;
+@property (nonatomic, retain) NSNumber * sleep;
 @property (nonatomic, retain) NSNumber * poopers;
-@property (nonatomic, retain) NSNumber * Sleep;
+@property (nonatomic, retain) NSSet* feedingTime;
 
+- (void)addFeedingTimeObject:(NSManagedObject *)value;
+- (void)removeFeedingTimeObject:(NSManagedObject *)value;
+- (void)addFeedingTime:(NSSet *)value;
+- (void)removeFeedingTime:(NSSet *)value;
 @end
